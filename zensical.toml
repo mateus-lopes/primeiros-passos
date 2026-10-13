@@ -10,6 +10,18 @@ repo_name = "mateus-lopes/primeiros-passos"
 
 nav = [
   { "Início" = "index.md" },
+  { "Módulo 0 · Preparando o cantinho" = [
+    "modulo0/index.md",
+    { "0.1 · Sessão 0" = "modulo0/aula01-sessao-0.md" },
+    { "0.2 · Como usar esta trilha" = "modulo0/aula02-como-usar-a-trilha.md" },
+  ] },
+  { "Módulo 1 · Pensando como programadora" = [
+    "modulo1/index.md",
+    { "1.1 · O que é programar?" = "modulo1/aula01-o-que-e-programar.md" },
+    { "1.2 · O computador é bem literal" = "modulo1/aula02-computador-literal.md" },
+    { "1.3 · Decisões e repetições" = "modulo1/aula03-decisoes-e-repeticoes.md" },
+  ] },
+  { "Glossário" = "glossario.md" },
 ]
 
 [project.theme]
